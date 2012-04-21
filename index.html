@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Our-sphere : a portable 3D data-map viewer for iOS, Webkit browsers" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Our-sphere</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/International-Space-Apps-Challenge-Tokyo/Our-Sphere">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Our-sphere</h1>
+          <h2 id="project_tagline">a portable 3D data-map viewer for iOS, Webkit browsers</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/International-Space-Apps-Challenge-Tokyo/Our-Sphere/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/International-Space-Apps-Challenge-Tokyo/Our-Sphere/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Author Taiyo Fujii</p>
+
+<p>Team: takano21 , hagino3000 </p>
+
+<h3>API</h3>
+
+<h4>Standard Earth Map</h4>
+
+<pre><code>[service URL]
+
+ex)http://taiyolab.com/ourspheredev/
+</code></pre>
+
+<h4>Importing Image by URL</h4>
+
+<pre><code>[service URL] + /?map=[escaped Image URL]
+
+ex)http://taiyolab.com/ourspheredev/?map=http%3A//rapidfire.sci.gsfc.nasa.gov/imagery/firemaps/firemap.2011271-2011280.2048x1024.jpg
+</code></pre>
+
+<h4>Showing Satellite(s)</h4>
+
+<pre><code>[service URL] + /?satellite=true
+
+ex)http://taiyolab.com/ourspheredev/?satellite=true
+</code></pre>
+
+<h3>Usage as Widget</h3>
+
+<div class="highlight">
+<pre><span class="nt">&lt;iframe</span> <span class="na">class=</span><span class="s">"our sphere"</span>
+        <span class="na">src=</span><span class="s">"http://taiyolab.com/ourspheredev/index.html"</span>
+        <span class="na">width=</span><span class="s">"200"</span> <span class="na">height=</span><span class="s">"200"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/iframe&gt;</span>
+</pre>
+</div>
+
+
+
+
+<h3>License</h3>
+
+<p>Our Sphere is published under MIT license.</p>
+
+<p>Copyright © 2012 Taiyo Fujii.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>::</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.</p>
+
+<h1>About Orb.js</h1>
+
+<p>Our Sphere includes Orb.js - JavaScript Library for Astronomical Calculations
+orb.js <a href="http://www.lizard-tail.com/isana/lab/orb/">http://www.lizard-tail.com/isana/lab/orb/</a></p>
+
+<p>orb - core.js</p>
+
+<p>::</p>
+
+<p>Orb 0.0.1 - Javascript Library for Astronomical Calcrations</p>
+
+<p>Copyright (c) 2010 KASHIWAI, Isana
+  Dual licensed under the MIT (MIT-LICENSE.txt), and GPL (GPL-LICENSE.txt) licenses.</p>
+
+<p>Date: 2010-07-15 00:00:00 +0900 (Sun, 20 Jun 2010)
+  Rev: 0001</p>
+
+<p>This script includes "json2.js" on the last part of the file.
+  "json2.js" creates a global JSON object
+  Copyright/License: Public Domain
+  ref. <a href="http://www.JSON.org/js.html">http://www.JSON.org/js.html</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Our-sphere maintained by <a href="https://github.com/International-Space-Apps-Challenge-Tokyo">International-Space-Apps-Challenge-Tokyo</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("SpaceApps NASA CSS3D");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
